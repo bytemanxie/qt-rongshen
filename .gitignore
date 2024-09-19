@@ -1,0 +1,35 @@
+build/
+# 忽略 CMake 生成的文件
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 忽略 Qt Creator 生成的文件
+*.user
+*.qmlc
+*.qrc
+moc_*
+ui_*
+qrc_*
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+
+# 忽略编译生成的二进制文件
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# 忽略图片生成或缓存的中间文件
+*.png
+*.jpg
+*.jpeg
+*.gif
